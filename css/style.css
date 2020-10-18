@@ -2,10 +2,15 @@ body {
   text-align: center;
   background: #222;
   color: white;
+  font-size: 16px;
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6 { font-weight: 300; }
-ul { list-style: none }
+ul { list-style: none; }
+li {
+  padding: 12px 0;
+  font-size: 24px;
+}
 
 a, a:visited { color: white; }
