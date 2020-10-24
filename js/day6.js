@@ -23,7 +23,7 @@ function draw() {
       var localPhase = phase - (row + col);
       push();
       translate(x, y);
-      if (localPhase > 360 && int(localPhase / 90) % 2 == 0) {
+      if (localPhase > 0 && int(localPhase / 90) % 2 == 0) {
         rotate(localPhase);
       }
       fill(color);
